@@ -12,6 +12,10 @@ imports = [
 items = [
     "git",
     "build-essential",
+    "cmake",
+    "libtool",
+    "fasd",
+    "guile-3.0",
 ]
 
 # Packages to be installed via Flatpak.
@@ -25,5 +29,5 @@ items = [
 [managers.cargo]
 items = [
     # "bacon",
-		starship
+		"starship",
 ]
