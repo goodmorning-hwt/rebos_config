@@ -10,17 +10,20 @@ imports = [
 # Packages to be installed via the native package manager.
 [managers.system]
 items = [
-    # "git",
+    "git",
+    "build-essential",
 ]
 
 # Packages to be installed via Flatpak.
 [managers.flatpak]
 items = [
     # "com.github.tchx84.Flatseal",
+		# org.gnu.emacs
 ]
 
 # Packages to be installed via Cargo.
 [managers.cargo]
 items = [
     # "bacon",
+		starship
 ]
